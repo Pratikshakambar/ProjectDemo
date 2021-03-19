@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.app.pojos.Department;
-import com.app.service.DepartmentServiceImpl;
+import com.app.service.IDepartmentService;
 
 @Controller
 @RequestMapping("/employee")
 public class EmployeeController {
 
 	@Autowired
-	DepartmentServiceImpl deptService;
+	IDepartmentService deptService;
 	
 	public EmployeeController() {
 		System.out.println("in employee controller");

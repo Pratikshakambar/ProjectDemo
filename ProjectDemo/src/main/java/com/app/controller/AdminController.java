@@ -21,6 +21,7 @@ public class AdminController {
 	public String showAdminLogin() {
 		System.out.println("in show admin login page");
 		System.out.println("again for trying git");
+		System.out.println("again for trying git2");
 		return "/admin/login";
 	}
 	@PostMapping("/login")
