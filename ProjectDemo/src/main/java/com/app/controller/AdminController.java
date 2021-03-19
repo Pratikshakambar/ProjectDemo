@@ -20,6 +20,7 @@ public class AdminController {
 	@GetMapping("/login")
 	public String showAdminLogin() {
 		System.out.println("in show admin login page");
+		System.out.println("again for trying git");
 		return "/admin/login";
 	}
 	@PostMapping("/login")
